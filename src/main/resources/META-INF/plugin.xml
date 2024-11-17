@@ -185,6 +185,11 @@
       <add-to-group group-id="RefactoringMenu" anchor="last"/>
     </group>
 
+    <action id="org.asciidoc.intellij.actions.editorlayout.DonStartAction"
+            class="org.asciidoc.intellij.actions.editorlayout.DonStartAction" text="Start Up Don"
+            description="Get him going.">
+      <add-to-group group-id="RunMenu" anchor="first"/>
+    </action>
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
